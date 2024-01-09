@@ -85,6 +85,8 @@ header .blur h2 {
 }
 #welcome .container {
     background-image: url(../resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 600px;
 }
 #welcome .mid {
@@ -191,4 +193,85 @@ header .blur h2 {
     font-family: 'Inter', sans-serif;
     font-size: 48px;
     margin: 10px 0px;
+}
+#holiday-sell {
+    margin-top: 100px;
+}
+.sell-text {
+    text-align: center;
+    color: #070211;
+}
+.sell-text h5 {
+    font-size: 24px;
+    margin: 10px 0px;
+}
+.sell-text h2 {
+    font-size: 72px;
+    font-weight: bold;
+    margin: 15px 0px;  
+}
+.sell-text p {
+    width: 1000px;
+    color: rgba(7, 2, 17, 0.60);
+    margin: 10px 0px;
+    font-family: 'Inter', sans-serif;
+}
+.sell-image {
+    display: flex;
+    border-bottom: 200px red solid;
+    position: relative;
+    margin-top: 100px;
+}
+.sell-image .image1 {
+    width: 55%;
+}
+.sell-image .image2 {
+    width: 20%;
+}
+.sell-image .image3 {
+    width: 25%;
+}
+.sell-image .image1 img {
+    position: absolute;
+    width: 35%;
+    height: 100%;
+    top: 150px;
+    left: 100px;
+}
+.sell-image .image2 img {
+    position: absolute;
+}
+.sell-image .image3 img {
+    width: 100%;
+    height: 100%;
+}
+
+#portfolio {
+    margin-top: 100px;
+}
+#portfolio h5 {
+    font-size: 24px;
+    margin: 10px 0px;
+}
+#portfolio h2 {
+    font-size: 48px;
+    margin: 10px 0px;
+}
+#portfolio p {
+    color: rgba(7, 2, 17, 0.60);
+    margin: 10px 0px;
+
+}
+.portfolio-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 50px 0px;
+}
+.portfolio-images img {
+    width: 32%;
+}
+.portfolio-images img:hover {
+    transform: scale(1.2);
+    transition: 0.9s;
 }
