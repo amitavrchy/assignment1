@@ -146,3 +146,49 @@ header .blur h2 {
     margin: 20px;
     font-family: 'Inter', sans-serif;
 }
+
+#new-offer .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px auto;
+}
+#new-offer .container div {
+    width: 30%;
+}
+.coming-soon {
+    margin-top: 80px;
+}
+.content-theme {
+    color: rgba(7, 2, 17, 0.60);
+}
+.coming-soon .highlighted {
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    margin: 10px 0px;
+}
+.coming-soon h2 {
+    font-size: 48px;
+    color: #070211;
+    margin: 10px 0px;
+}
+.offer-image {
+    height: 350px;
+    width: 350px !important;
+    border-radius: 50%;
+    border: 10px solid red;
+}
+.offer-image img {
+    width: 90%;
+    height: 90%;
+    display: block;
+    margin: 18px auto;
+}
+.wish {
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.wish h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    margin: 10px 0px;
+}
